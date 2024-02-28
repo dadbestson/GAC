@@ -1,0 +1,64 @@
+
+<html>
+    <head><title>This is a form</title>  <meta charset="UTF-8">
+    </head>
+    <body>
+<script type="text/javascript">
+
+</script>
+<style>
+.head1 {
+    text-align:center;
+    background-color:yellow;
+    color:brown;
+   
+
+}
+body{
+    background-color:aquamarine;
+}
+</style>
+<h2 class="head1">Glorious Academy Chitwan<br>Bharatpur-4,lanku </h2>
+
+<hr>
+<h2 style="text-align:center; background-color:skyblue">Enter the form for registration</h2>
+<form action="proj.php" method="post">
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="Enter your first name" required/>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Enter your Last name" required/>
+        <label for="dob">Date of birth:</label>
+        <input type="date" name="dob"/>
+    </div><br>
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" name="address" placeholder="Enter your Address" required/>
+        <label for="province">select your province:</label>
+            <select name="province" name="province">
+                <option value="0">Enter your province</option>
+                <option value="1">koshi</option>
+                <option value="2">Madesh</option>
+                <option value="3">Bagmati</option>
+                <option value="4">Gandaki</option>
+                <option value="5">Lumbini</option>
+                <option value="6">Karnali</option>
+                <option value="7">sudurpaschim</option>
+                
+        </select>
+    </div><br>
+    <div>
+        <label for="contact">Contact number:</label>
+        <input name="contact" placeholder="Enter your number" required/>
+        <label for="email">Enter email:</label>
+        <input name="email" placeholder="Enter your email Address" required/>
+        
+    </div><br><br>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+</ol>
+    </body>
+</html>
